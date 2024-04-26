@@ -10,7 +10,7 @@ int main()
     {
         if (count == 5)
         {
-            break;
+            break; // if we continue onlu the 5 will be skipped
         }
         cout << count << endl;
         count++;
