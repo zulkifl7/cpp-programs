@@ -10,8 +10,12 @@ int main()
     {
         if (count == 5)
         {
-            continue;
-            // break; // if we continue onlu the 5 will be skipped. also we need to incriment count inside if before continue statement
+            // count++;
+            // continue;
+            break;
+
+            // if we continue onlu the 5 will be skipped.
+            // also we need to incriment count inside if before continue statement
         }
         cout << count << endl;
         count++;
