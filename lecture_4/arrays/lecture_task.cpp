@@ -32,10 +32,13 @@ int main()
         if (sales_amt[k] < avg)
         {
             cout << "Day " << k + 1 << endl;
+        }
+        else
+        {
             count++;
         }
     }
-    cout << "Total number of sales blow average - " << count;
+    cout << "Total number of sales above average - " << count;
 
     return 0;
 }
